@@ -1,0 +1,34 @@
+{
+  "YOLOv8n": {
+    "weights": "yolov8n.pt",
+    "precision": 0.8961,
+    "recall": 0.6869,
+    "map50": 0.8484,
+    "map50_95": 0.6302,
+    "inference_ms": 32.48,
+    "train_time_s": 559.7,
+    "params_m": 3.16,
+    "per_class_ap50": {
+      "buffalo": 0.7501,
+      "elephant": 0.7847,
+      "rhino": 0.9362,
+      "zebra": 0.9225
+    }
+  },
+  "YOLO11n": {
+    "weights": "yolo11n.pt",
+    "precision": 0.8773,
+    "recall": 0.761,
+    "map50": 0.8783,
+    "map50_95": 0.6593,
+    "inference_ms": 13.73,
+    "train_time_s": 308.9,
+    "params_m": 2.62,
+    "per_class_ap50": {
+      "buffalo": 0.9133,
+      "elephant": 0.8038,
+      "rhino": 0.9473,
+      "zebra": 0.8487
+    }
+  }
+}
